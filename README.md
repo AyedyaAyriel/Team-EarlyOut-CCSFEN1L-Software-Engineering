@@ -2,7 +2,7 @@
 
 **Proposed Thesis:** *[insert here]*
 
-This blah blah
+This repository holds Team Kalasag's laboratory work, proposal artifacts, and proof-of-concept spike for CCSFEN1L Software Engineering (2nd Term, A.Y. 2026-2027) (1).
 
 # Team EarlyOut
 
