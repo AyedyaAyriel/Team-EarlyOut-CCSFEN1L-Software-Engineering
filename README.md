@@ -43,7 +43,7 @@ The proposal is bla blah
 
 # GETTING STARTED
 ```
-git clone https://github.com/<course-org>/team-kalasag.git
+git clone https://github.com/<course-org>/team-earlyout.git
 cd team-kalasag
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
