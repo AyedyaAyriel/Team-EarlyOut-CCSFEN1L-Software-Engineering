@@ -16,7 +16,8 @@ Roles blah bblah
 
 # Repository Layout
 
-```.
+```
+.
 ├── README.md             this file
 ├── CHARTER.md            team charter
 ├── TOPIC_BANK.md         one entry per lab, Labs 01 to 10
