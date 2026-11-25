@@ -39,3 +39,24 @@ Roles blah bblah
 ├── requirements.txt
 └── .gitignore
 ```
+The proposal is bla blah
+
+# Getting Started
+```
+git clone https://github.com/<course-org>/team-kalasag.git
+cd team-kalasag
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+pytest                             # runs the spike's tests
+
+```
+
+# How we work
+- Blah
+- Blah
+- Blah
+
+# Labs
+| LAB | PARADIGM | FOLDER | STATUS |
+|--------|-------|-------| -------|
