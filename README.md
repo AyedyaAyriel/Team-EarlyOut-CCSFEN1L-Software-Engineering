@@ -14,7 +14,7 @@ This blah blah
 
 Roles blah bblah
 
-# Repository Layout
+# REPOSITORY LAYOUT
 
 ```
 .
@@ -41,7 +41,7 @@ Roles blah bblah
 ```
 The proposal is bla blah
 
-# Getting Started
+# GETTING STARTED
 ```
 git clone https://github.com/<course-org>/team-kalasag.git
 cd team-kalasag
@@ -52,11 +52,21 @@ pytest                             # runs the spike's tests
 
 ```
 
-# How we work
+# HOW WE WORK
 - Blah
 - Blah
 - Blah
 
-# Labs
+# LABS
 | LAB | PARADIGM | FOLDER | STATUS |
 |--------|-------|-------| -------|
+|--------|-------|-------| -------|
+
+# PROOF OF CONCEPT
+blah blah blah
+
+# USE OF AI TOOLS
+blah blah blah
+
+# LICENSE
+blah blah blah
