@@ -1,1 +1,24 @@
+Title Proposal: Motorcycle Helmet Violation Detection and License Plate Recognition Using YOLOv8 and OCR
 
+Problem
+Riding without a helmet is a common cause of serious injuries on Philippine roads. Enforcement mostly depends on traffic enforcers or guards watching by eye, so it's slow and many violations are missed. This study looks at whether a camera-based system can automatically spot riders without helmets and read their plate numbers.
+
+Main goal
+To find out how well YOLOv8 and OCR can detect helmet violations and read license plates from images and video of motorcycles.
+
+What we plan to do
+
+- Gather and label images of motorcycles, riders, helmets, and license plates from public datasets and our own local photos or videos.
+- Train YOLOv8 to detect riders with a helmet, riders without a helmet, and license plates.
+- Use OCR to read the text on the detected plates.
+- Try several OCR options, including a very simple one (Tesseract), and compare them.
+- Measure how accurate the detection and plate reading are (precision, recall, mAP, and plate reading accuracy), then pick the best setup.
+- Check if the system runs fast enough on video.
+
+What's included
+
+- Public helmet and motorcycle images from Kaggle or Roboflow (e.g., Kaggle Helmet Detection, Roboflow Universe motorcycle helmet sets)
+- Public license plate images from Kaggle or Roboflow (e.g., Kaggle Car License Plate Detection)
+- Our own photos or videos (about 300 to 500 images or frames) taken with permission, with plates blurred in anything we publish
+- Free OCR tools (Tesseract, EasyOCR, PaddleOCR)
+- Optionally, a simple log that saves the violation image, time, and plate number
