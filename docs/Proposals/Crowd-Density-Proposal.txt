@@ -1,1 +1,24 @@
+Title Proposal: Real-Time Crowd Density Estimation in University Hallways and Canteens Using CSRNet and Computer Vision
 
+Problem
+Hallways and canteens at NU Laguna often get overcrowded during class changes, lunch, and events. This can slow movement and create safety risks during emergencies. Monitoring is mostly done by guards watching CCTV or walking around, so it's slow and inconsistent. This study looks at whether a camera-based system can estimate how many people are in an area and warn staff when it gets too crowded.
+
+Main goal
+To find out how well crowd counting methods can estimate the number of people in university hallways and canteens from camera images and video.
+
+What we plan to do
+
+- Gather and label crowd images from public datasets and our own local photos or videos of campus hallways and canteens.
+- Train CSRNet to produce density maps and estimate the number of people in each image.
+- Try several counting methods, including a very simple one (YOLOv8 detecting each person and counting the boxes), and compare them.
+- Measure how far off each method's counts are from the real numbers (MAE and RMSE) and pick the best one.
+- Set a crowd limit for each area and show an alert when the estimated count passes it.
+- Check if the system runs fast enough on video (about one frame every 1 to 2 seconds).
+
+What's included
+
+- Public crowd counting images from datasets like ShanghaiTech (Part B first) or UCF-QNRF
+- Our own photos or videos (about 100 to 200 images or frames) taken with school permission, with no faces identified and no raw footage stored
+- Head-point annotations for each person in the local images
+- Free tools (PyTorch, OpenCV, YOLOv8)
+- Optionally, a simple dashboard that shows the current count and an alert when the limit is exceeded
