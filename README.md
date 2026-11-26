@@ -10,7 +10,7 @@ This repository holds Team EarlyOut's laboratory work, proposal artifacts, and p
 |--------|-------|-------|
 | Ija Iriel Tarun | Project Lead (Scrum Master) & QA | Zet Emerson |
 | Zet Emerson Kagahastian | Technical Lead (Architect) | Rovee Supena |
-| Rovee Supena | Research Lead & Data Lead | Ija Tarun & Zet Emerson|
+| Rovee Supena | Research Lead & Data Lead | Zet Emerson |
 
 ## Team Responsibilities
 All members are expected to participate in discussions, contribute to deliverables, review one another's work, and communicate project concerns.
